@@ -141,40 +141,40 @@ backTop.addEventListener('click', () => {
 */
 let menu = [
     {
-        dish: 'Greek Salad',
+        dish: 'Nasi Goreng',
         tag: 'Seasonal',
-        price: '25.50',
-        description: 'Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.',
+        price: '20.000',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum diam vel ligula sodales porta.',
     },
     {
-        dish: 'Lasagne',
+        dish: 'Nasi Itik',
         tag: '',
-        price: '10.00',
-        description: 'Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.',
+        price: '20.000',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum diam vel ligula sodales porta.',
     },
     {
-        dish: 'Butternut Pumpkin',
+        dish: 'Cacapan Asam',
         tag: '',
-        price: '32.00',
-        description: 'Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.',
+        price: '20.000',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum diam vel ligula sodales porta.',
     },
     {
-        dish: 'Tokusen Wagyu',
+        dish: 'Ketupat Kandangan',
         tag: 'New',
-        price: '40.00',
-        description: 'Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.',
+        price: '20.000',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum diam vel ligula sodales porta.',
     },
     {
-        dish: 'Olivas Rellenas',
+        dish: 'Lontong',
         tag: '',
-        price: '29.50',
-        description: 'Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.',
+        price: '20.000',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum diam vel ligula sodales porta.',
     },
     {
-        dish: 'Opu Fish',
+        dish: 'Bingka',
         tag: '',
-        price: '45.00',
-        description: 'Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.',
+        price: '20.000',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum diam vel ligula sodales porta.',
     },
 ]
 
@@ -190,7 +190,7 @@ menu.forEach((item, index) => {
             <div class="menu__info-top">
                 <h2>${item.dish}</h2>
                 <span></span>
-                <h3>$${item.price}</h3>
+                <h3>Rp${item.price}</h3>
             </div>
             <p>${item.description}</p>
         </div>

@@ -217,3 +217,19 @@ addEventListener('load', () => {
     inputDate.value = currentTime;
     inputDate.setAttribute('min', currentTime);
 })
+
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "<span>Read more</span>";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "<span>Read less</span>";
+      moreText.style.display = "inline";
+    }
+  }

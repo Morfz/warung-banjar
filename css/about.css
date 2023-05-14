@@ -8,7 +8,7 @@
 
 .about__image {
     width: calc(50% - 40px);
-    height: calc(max-content - 40px);
+    height: 700px;
     padding: 20px;
     background: url('../img/about-banner.jpg') no-repeat top;
     background-clip: content-box;
@@ -176,3 +176,5 @@ aside strong:hover:before {
         line-height: 1.8rem !important;
     }
 }
+
+#more {display: none;}

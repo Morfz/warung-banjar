@@ -1,0 +1,22 @@
+{
+  "name": "warung-banjar",
+  "version": "1.0.0",
+  "description": "tugas akhir lsv kelompok 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morfz/warung-banjar.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "kel2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Morfz/warung-banjar/issues"
+  },
+  "homepage": "https://github.com/Morfz/warung-banjar#readme"
+}
